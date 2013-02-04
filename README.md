@@ -3,7 +3,7 @@ Copynotice
 
 Maintain a 'valid' copynotice (copyright and copyleft) in accordance with the guidelines Stephen Fishman outline in his work The Copyright Handbook
 
-See the /examples/index.html to see what this generates:
+See http://alexanderbrevig.github.com/Copynotice/examples/ to see what this generates:
     
     <script src="../copynotice.js"></script>
     <script type="text/javascript">
