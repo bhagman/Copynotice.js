@@ -24,7 +24,7 @@ var Copynotice = (function() {
                 } else {
                     str = 'Copyleft <!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: "FlipH"; display: inline-block;"><![endif]--><span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;"> &copy;</span><!--[if lte IE 8]></span><![endif]--> ';
                 }
-                if (this.since!=="" && this.since !== this.now.toString()){
+                if (this.since!=="" && !(parseInt(this.since)>=parseInt(this.now))){
                     str = str + this.since + "-";
                 }
                 str = str + this.now + " by " + this.owner;
